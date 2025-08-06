@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    background-color: aqua;
+}
+
+div ul{
+    margin: 0 auto;
+    width: 560px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+div ul li{
+    padding: 10px;
+    list-style: none;
+    text-transform: uppercase;
+}
