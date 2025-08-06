@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 div{
@@ -12,12 +14,18 @@ div ul{
     width: 560px;
 
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    gap: 10px;
+    justify-content: center;
 }
 
 div ul li{
     padding: 10px;
     list-style: none;
     text-transform: uppercase;
+    font-weight: bold;
 }
+
+div ul li:hover{
+    background-color: blanchedalmond;
+}
+
